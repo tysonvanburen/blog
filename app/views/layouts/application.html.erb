@@ -7,9 +7,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<%= link_to 'Home', root_path %>
-<%= link_to 'View Posts', posts_path %>
-<%= link_to 'About our Site', static_about_path %>
+<%= render 'layouts/navbar' %>
 <%= yield %>
 
 </body>
